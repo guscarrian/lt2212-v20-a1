@@ -1,7 +1,7 @@
 # LT2212 V20 Assignment 1
 
 
-PART 1: Convert the data into a DataFrame
+**PART 1: Convert the data into a DataFrame**
 
 In this fist part, two folders and and integer are taken as input and we get a DataFrame where NaNs are replaced with zeros. Two helper functions are also implemented to run part1_load:
 
@@ -11,7 +11,7 @@ In this fist part, two folders and and integer are taken as input and we get a D
 
 
 
-PART 4: tf-idf & visualize
+**PART 4: tf-idf & visualize**
 
 While the top terms in the bar chart from part 2 mainly correspond to function words like prepositions ('to', 'of', 'in', 'for') or articles ('the', 'a'), we see an increase of content words in the bar chart for part 4 ('tonnes', 'wheat', 'oil'). The reason for this is that, after applying tf-idf, the number of function words is filtered out, which translates into a higher amount of content words whithin the top m term frequencies. In addition, it is interesting to note that whilst the top terms before tf-idf was performed were occuring in both 'crude' and 'grain' with more or less the same frequency (except for 'oil'), there are some specific content words for 'crude' and 'grain' respectively. That is, 'tonnes' and 'wheat' are much more frequent in the 'grain' class, however, 'oil' is most frequent in 'crude'.
 
